@@ -50,6 +50,3 @@ def test_model_on_blocky_data():
     tree_model, tree_score = fit_tree_model(X_perfect, y_perfect, depth=3)
     # The tree is PERFECT for this. It should get a score of 1.0
     assert tree_score > 0.999
-
-def foo():
-print("errei identação.")
