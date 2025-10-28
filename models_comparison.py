@@ -93,6 +93,8 @@ def create_comparison_plot(X, y, models_and_scores, title_info):
     plt.close()
     print(f"Plot saved successfully to {plot_path}")
     return plot_path
+def foo():
+print("tralalalalaa")
 
 if __name__ == "__main__":
     pattern = random.choice(['smooth', 'blocky'])
@@ -108,3 +110,5 @@ if __name__ == "__main__":
     
     create_comparison_plot(X_data, y_data, models_to_plot, pattern_name)
     print("\nAll tasks completed successfully!")
+
+
