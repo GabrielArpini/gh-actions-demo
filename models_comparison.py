@@ -108,3 +108,5 @@ if __name__ == "__main__":
     
     create_comparison_plot(X_data, y_data, models_to_plot, pattern_name)
     print("\nAll tasks completed successfully!")
+    
+    # End of script
