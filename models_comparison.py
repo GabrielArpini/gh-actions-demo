@@ -44,10 +44,11 @@ def generate_data(pattern_choice):
     print(f"Generated {len(X)} data points.")
     return X_reshaped, y, pattern_choice, true_pattern_name
 
+# teste
 def fit_svr_model(X, y):
     """Fits an SVR model and returns its score and predictions."""
     print("Fitting SVR Model")
-    svr_model = SVR(kernel='rbf', C=10, gamma='auto')
+    svr_model = SVR(kernel='linear', C=10, gamma='auto')
     svr_model.fit(X, y)
     y_pred = svr_model.predict(X)
     score = r2_score(y, y_pred)
