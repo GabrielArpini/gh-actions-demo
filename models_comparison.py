@@ -44,6 +44,7 @@ def generate_data(pattern_choice):
     print(f"Generated {len(X)} data points.")
     return X_reshaped, y, pattern_choice, true_pattern_name
 
+# teste
 def fit_svr_model(X, y):
     """Fits an SVR model and returns its score and predictions."""
     print("Fitting SVR Model")
